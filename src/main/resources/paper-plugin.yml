@@ -1,0 +1,5 @@
+name: Myrosynthesis
+version: '0.1'
+main: me.deadybbb.myrosynthesis.Myrosynthesis
+api-version: '1.20'
+authors: [ Ybbb ]
