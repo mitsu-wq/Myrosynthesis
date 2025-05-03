@@ -1,7 +1,6 @@
-package me.deadybbb.myrosynthesis;
+package me.deadybbb.myrosynthesis.welcomebook;
 
 import net.kyori.adventure.text.Component;
-import net.kyori.adventure.text.format.NamedTextColor;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -17,7 +16,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 import java.util.logging.Level;
 
 public class WelcomeBookListener implements Listener {
