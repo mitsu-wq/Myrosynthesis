@@ -1,10 +1,27 @@
 name: Myrosynthesis
-version: 0.2
+version: 0.2.1
 main: me.deadybbb.myrosynthesis.Myrosynthesis
 api-version: 1.20
 authors:
   - Ybbb
 commands:
   zone:
-    description: Управление зонами с эффектами
-    usage: /<command> <create|pos1|pos2|toggle|delete|change> [name]
+    description: Manage zones
+    usage: /<command> <create|pos1|pos2|toggle|delete|change|effects|reload> [args]
+  welcomebooks:
+    description: Manage welcome books
+    usage: /<command> <player|add|remove|reload> [args]
+  effect:
+    description: Manage effects
+    usage: /<command> <add|remove|reload> [args]
+
+permissions:
+  myrosynthesis.zone:
+    description: Allows use of zone commands
+    default: op
+  myrosynthesis.welcomebooks:
+    description: Allows use of welcomebooks commands
+    default: op
+  myrosynthesis.effect:
+    description: Allows use of effect commands
+    default: op
